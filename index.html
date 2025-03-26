@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    let suma = 0;
+    for (let index = 0; index < 4; index++) {
+      let texto = "Ingrese la nota" + (index + 1) + " entre 0 y 5";
+      let nota = parseFloat(window.prompt(texto));
+      if (nota < 0 || nota > 5) {
+        window.alert("La nota debe estar entre 0 y 5");
+        index--;
+      } else {
+        suma += nota;
+      }
+    }
+    let promedio = suma / 4;
+    window.alert("El promedio es: " + promedio);
+  </script>
+</html>

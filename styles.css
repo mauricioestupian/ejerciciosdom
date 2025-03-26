@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(https://img.freepik.com/foto-gratis/experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.jpg?t=st=1743018999~exp=1743022599~hmac=136a21e6bac3faac2bb693ea89fc1e28fbdd54ad7e429535eb163b1177380f57&w=1380)
+    no-repeat center center/ cover;
+}
+
+/* Contenido */
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 80vw;
+  max-width: 600px;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  width: 100%;
+  margin: 20px 10px;
+}
+
+ul {
+  width: 100%;
+  height: 100%;
+}
+
+.lenguaje {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  margin: 15px 0;
+}
+
+.fondo-oscuro {
+  background-color: #1f238e;
+}
+
+.fondo-claro {
+  background-color: #f57be3;
+}
